@@ -1,0 +1,26 @@
+<html> 
+<head> 
+	<title> Beep sound document </title> 
+</head> 
+
+<body> 
+<center>
+	<h2 style="color:brown"> Simple example </h2>
+	<h4> Press the Button to beep a sound </h4> 
+    
+             <!-- create a button to call the function to play a beep sound -->
+	<button onclick="play()"> Press Button </button> 
+
+	<script> 
+            //JavaScript function to play the beep sound
+            function play() { 
+		var beepsound = new Audio( 
+'https://www.soundjay.com/button/sounds/beep-01a.mp3'); 
+		beepsound.play(); 
+	} 
+	</script> 
+</center>
+</body> 
+</html>
+
+ 
